@@ -34,7 +34,7 @@ export default function Card({ title, body, tags, reactions }: PostCardProps) {
           onClick={toggleText}
           className="text-blue-500 text-xs self-start hover:underline"
         >
-          {showFullText ? "Скрыть" : "Показать больше"}
+          {showFullText ? "Hide" : "Show more"}
         </button>
       )}
 
